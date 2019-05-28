@@ -13,7 +13,7 @@
   },
 
   "license": "CC0-1.0",
-  "icon": "",
+  "icon": "assets.compasswaypoints/icon.png",
 
   "environment": "client",
   "entrypoints": {

@@ -10,9 +10,9 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 //@Mixin(MinecraftClient.class)
 @Mixin(InGameHud.class)
 public class ExampleMixin {
-	@Inject(at = @At("RETURN"), method = "draw(F)V")
-	public void draw(float delta, CallbackInfo info)
-	{
+//	@Inject(at = @At("RETURN"), method = "draw(F)V")
+//	public void draw(float delta, CallbackInfo info)
+//	{
 //		MapGUI map = MapGUI.instance;
 //		if (map != null)
 //		{
@@ -22,5 +22,5 @@ public class ExampleMixin {
 //		GlStateManager.disableDepthTest();
 //		WayPointRenderer.render(delta);
 //		GlStateManager.enableDepthTest();
-	}
+//	}
 }
