@@ -1,31 +1,32 @@
 {
   "schemaVersion": 1,
-  "id": "compasswaypoints",
+  "id": "modid",
   "version": "${version}",
 
-  "name": "Compass waypoints Mod",
-  "description": "Compass waypoints Mod. Is ?",
+  "name": "Example Mod",
+  "description": "This is an example description! Tell everyone what your mod is about!",
   "authors": [
-    "PioSta!"
+    "Me!"
   ],
   "contact": {
-    "sources": "https://github.com/piosta/CompassWaypoints"
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
   },
 
   "license": "CC0-1.0",
-  "icon": "assets.compasswaypoints/icon.png",
+  "icon": "assets/modid/icon.png",
 
-  "environment": "client",
+  "environment": "*",
   "entrypoints": {
-    "client": [
-      "com.piosta.compasswaypoints.CompassWaypoints"
+    "main": [
+      "net.fabricmc.example.ExampleMod"
     ]
   },
   "mixins": [
-    "compasswaypoints.mixins.json"
+    "modid.mixins.json"
   ],
 
-  "requires": {
+  "depends": {
     "fabricloader": ">=0.4.0",
     "fabric": "*"
   },
