@@ -6,7 +6,7 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
-public class CompassWaipoints implements ModInitializer {
+public class CompassWaypoints implements ModInitializer {
 
     // public static final FABRIC_ITEM = new Item(new
     // Item.Settings().group(ItemGroup.MISC));
@@ -15,7 +15,7 @@ public class CompassWaipoints implements ModInitializer {
     @Override
     public void onInitialize() {
         // TODO Auto-generated method stub
-        Registry.register(Registry.ITEM, new Identifier("compasswaipoints", "fabric_item"), FABRIC_ITEM);
+        Registry.register(Registry.ITEM, new Identifier("compasswaypoints", "fabric_item"), FABRIC_ITEM);
     }
 
 }

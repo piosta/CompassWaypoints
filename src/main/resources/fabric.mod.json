@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "id": "compasswaipoints",
+  "id": "compasswaypoints",
   "version": "${version}",
 
-  "name": "Compass Waipoints",
-  "description": "This is my Compass waipoints",
+  "name": "Compass Waypoints",
+  "description": "This is my Compass waypoints",
   "authors": [
     "psj"
   ],
@@ -14,12 +14,12 @@
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/compasswaipoints/icon.png",
+  "icon": "assets/compasswaypoints/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.waypoints.compass.CompassWaipoints"
+      "net.waypoints.compass.CompassWaypoints"
     ]
   },
   "mixins": [
